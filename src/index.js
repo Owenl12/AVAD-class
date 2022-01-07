@@ -4,9 +4,5 @@ import './index.css';
 import App from './App';
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const greeting = <h1>Hello World!</h1>;
+ReactDOM.render(greeting, document.getElementById('root'));
